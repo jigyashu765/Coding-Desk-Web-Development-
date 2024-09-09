@@ -1,0 +1,48 @@
+/* All */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Globle style */
+
+a{
+    text-decoration: none; /*it remove defalut underline from link*/
+}
+
+
+/* Header */
+header{
+    background-color: black;
+    /* background-color: #FF0000; set color in backgournd */
+    /* background-color: rgb(25, 20, 75); set color in backgournd */
+    /* rgb (its stand for red green blue) */
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    /* margin: top right bottom left; */
+    /* margin: top&bottom right&left; */
+    margin: 0px auto;
+    /* border: 1px solid red; */
+    display: flex; 
+    flex-direction: row; /*it set flex direction*/
+    align-items: center; /*it align item center in vertical diection*/
+    justify-content: space-between; /*it aling item in horigental direction*/
+    width: 80%;
+}
+
+.header-logo img{
+    height: 100px; /*it set the heigght to the elemet*/
+}
+
+.header-link a{
+    color: white; /* its change the text color*/
+    font-size: 25px;/* its give size o the text*/
+    margin: 0px 15px;
+}
+
+/* Section main-container*/
